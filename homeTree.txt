@@ -1,0 +1,60 @@
+.
+├── .aliases.sh
+├── .bash_history
+├── .bash_logout
+├── .bashrc
+├── .config
+│   ├── htop
+│   └── myconf
+├── .gdb_history
+├── .gdbinit
+├── .git
+│   ├── COMMIT_EDITMSG
+│   ├── HEAD
+│   ├── branches
+│   ├── config
+│   ├── description
+│   ├── hooks
+│   ├── index
+│   ├── info
+│   ├── logs
+│   ├── objects
+│   └── refs
+├── .gitconfig
+├── .gitignore
+├── .landscape
+│   └── sysinfo.log
+├── .local
+│   └── share
+├── .motd_shown
+├── .profile
+├── .sudo_as_admin_successful
+├── .tmux.conf
+├── .vifm
+│   ├── colors
+│   ├── scripts
+│   ├── vifm-help.txt
+│   ├── vifminfo
+│   ├── vifmrc -> vifmrc.vim
+│   ├── vifmrc.vim
+│   └── vifmrc_BU
+├── .vim
+│   ├── .netrwbook
+│   ├── .netrwhist
+│   ├── .vim -> /home/m/.vim
+│   ├── autoload
+│   ├── colors
+│   ├── spell
+│   └── syntax
+├── .viminfo
+├── .vimrc
+├── .wget-hsts
+├── README.md
+├── demoC
+├── gitCommitTime.sh
+├── gitPush.sh
+├── homeTree.txt
+├── map_caps-lock_esc.txt
+└── setupRoot.sh
+
+23 directories, 34 files

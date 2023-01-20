@@ -22,7 +22,7 @@ echo
 #-----------------------------------------------------------------}}}
 
 
-#- aliases --------------------------------------------------------{{{
+#- aliases for bash --------------------------------------------------------{{{
 
 # start programs
 alias f='vifm /home/m  /01data'
@@ -103,12 +103,14 @@ alias q='exit'
 
 alias ga='git add --all'
 alias gc='git clone'
-alias gco='git commit'
- alias gp='./gitPush.sh'
+DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
+echo $DATE  
+alias g4c='git commit -m "$DATE"'
+alias gp='./gitPush.sh'
 alias gpl='git pull'
 alias gpu='git push'
 alias gr='git remote -v'
-alias gs='git status'
+alias g1s='git status && ag git'
 alias gl='git log'
 
 # mapleader = , pronounced edit
