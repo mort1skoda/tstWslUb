@@ -8,6 +8,8 @@
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
+set -o vi
+
 echo '1... start ~/.profile '
 echo
 

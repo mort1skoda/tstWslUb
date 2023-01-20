@@ -129,7 +129,6 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " }}}
 
-
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
 " ctrl-q write and quit
