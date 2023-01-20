@@ -1,6 +1,6 @@
 CC=clang
 CFLAGS=-Wall -Werror -g
-OUT=crm
+OUT=bin
 SOURCES=$(wildcard *.c)
 HEADERS=$(wildcard *.h)
 OBJECTS=$(patsubst %.c,%.o,$(SOURCES))
