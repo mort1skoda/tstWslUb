@@ -106,22 +106,20 @@ alias gc='git clone'
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 echo $DATE  
 alias g4c='git commit -m "$DATE"'
-alias gp='./gitPush.sh'
+alias g6p='git push'
 alias gpl='git pull'
 alias gpu='git push'
 alias gr='git remote -v'
 alias g1s='git status && ag git'
 alias gl='git log'
 
-# mapleader = , pronounced edit
-alias ,egi='v .gitignore'
-alias ,egp='vim gitPush.sh'
-
-#------------------------------------------------------------------}}}
+# mapleader = , 
+alias ,gi='v .gitignore'
+alias ,gp='vim gitPush.sh'
+#-------------------------------------------------------------}}}
 
 
 #- tmux aliases ---------------------------------------------------{{{
-
 # tm = tmux, start a new tmux session
 alias tm='tmux'
 # tl = tmux list
@@ -130,8 +128,7 @@ alias tl='tmux ls'
 alias ta='tmux a -t '
 # ,et = edit .tmux.conf
 alias ,et='vim ~/.tmux.conf'
-
-#------------------------------------------------------------------}}}
+#--------------------------------------------------------------}}}
 
 
 #- make aliases ---------------------------------------------------{{{
