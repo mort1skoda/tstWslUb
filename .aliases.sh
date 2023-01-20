@@ -101,7 +101,7 @@ alias q='exit'
 
 #- git aliases ----------------------------------------------------{{{
 
-alias ga='git add --all'
+alias g2a='git add --all'
 alias gc='git clone'
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 echo $DATE  

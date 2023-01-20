@@ -1,7 +1,7 @@
 # wslUbuntu
 ## WSL Ubuntu 20.04
 ### ~/.files (& .folders)
-#### /home/user/.files 
+#### /home/username/.files 
 ##### aka: dotfiles
 ##### for:
 * bash
@@ -15,7 +15,7 @@
 * ~\demoC including gdb
 * ~\demoHtml
 ---
-* git pull https://github.com/mort1skod/wslUbuntu.git
+* git pull https://github.com/mort1skoda/tstWslUb.git
 * git remote -v
 ---
 * ./gitPush.sh   /   alias gp
@@ -33,4 +33,5 @@
 * inside each of their folders
 ---
 # tstWslUb
-# tstWslUb
+
+
