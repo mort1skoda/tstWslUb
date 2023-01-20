@@ -6,3 +6,6 @@ https://github.com/susam/uncap
 https://github.com/susam/uncap/releases/download/0.3.0/uncap.exe
 
 
+AutoHotKey:
+is realy nice and advanced
+
