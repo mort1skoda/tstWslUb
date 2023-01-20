@@ -12,8 +12,8 @@ if [ "$TMUX" == "" ]; then
 
     #echo '-----------------> git push dotfiles before quiting !!!!!!!!!'
     echo
-    cd ~
-    gp
+    #cd ~
+    #gp
 
     #echo '----------------------------------> git push dev/c/template           !!!!!!!!!!!!!!!'
     #cd ~/dev/c/00template
