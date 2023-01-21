@@ -129,6 +129,8 @@ set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
 " }}}
 
+set list
+
 " from Normal mode you can type q followed by enter to quit without saving
 nnoremap q :q
 " ctrl-q write and quit
@@ -184,11 +186,11 @@ nnoremap <F7> :!make dbg<CR>
 
 " ctrl-s write (save) and source ~/.vimrc
 " in normal, insert, visual and comand mode.
-nnoremap <C-s> :w<CR>:source $VIMRC<CR>:echo'ctrl-s save'$VIMRC ' sourced:'$VIMRC<CR>
+"nnoremap <C-s> :w<CR>:source $VIMRC<CR>:echo'ctrl-s save'$VIMRC ' sourced:'$VIMRC<CR>
 " NB!!! ::: Do NOT remove the l after <CR> ::: !!!
 " It adjusts the position of the coursor!!
-inoremap <C-s> <ESC>:w<CR>l:source $VIMRC<CR>:echo'Insert->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
-vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
+"inoremap <C-s> <ESC>:w<CR>l:source $VIMRC<CR>:echo'Insert->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
+"vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
 "cnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Change->Normal C-s = Save.  Saved:'expand('%:p')' sourced:'$VIMRC<CR>
 
 
@@ -196,7 +198,7 @@ vnoremap <C-s> <ESC>:w<CR>:source $VIMRC<CR>:echo'Visual->Normal C-s = Save.  Sa
 
 
 
-nnoremap u u:echo'Normal u = undo last change'<cr>
+"nnoremap u u:echo'Normal u = undo last change'<cr>
 
 " U: Undo latest changes to one line. This command is unique because it will
 " create a new entry instead of reverting back to an old entry. This means you

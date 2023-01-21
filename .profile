@@ -8,17 +8,17 @@
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
+stty -ixon
 set -o vi
 
-echo '1... start ~/.profile '
-echo
+echo ' ~/.profile '
 
 # if running bash:  -n means if length of string is not 0
 if [ -n "$BASH_VERSION" ]; then
     # include .bashrc if it exists
     if [ -f "$HOME/.bashrc" ]; then
         # source $HOME/.bashrc
-	    source "$HOME/.bashrc"
+      source "$HOME/.bashrc"
     fi
 fi
 
@@ -27,8 +27,5 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
-
-echo
-echo '1... end   ~/.profile '
 
 
