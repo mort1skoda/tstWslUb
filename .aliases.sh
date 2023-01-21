@@ -103,17 +103,14 @@ alias q='exit'
 #- git aliases ----------------------------------------------------{{{
 DATE=$(date +"[%Y-%m-%d %H:%M:%S]")
 #echo $DATE  
+alias gs='git status && git remote -v && ag git'
 alias gp0='git pull'
-alias g1s='git status && git remote -v && ag git'
 alias g2a='git add --all'
-alias g3s='git status && git remote -v && ag git'
 alias g4c='git commit -m "$DATE"'
-alias g3s='git status && git remote -v && ag git'
 alias g6p='git push'
 
-alias gs='git status && git remote -v && ag git'
+alias ga='git add'
 alias gp='git push'
-alias gr='git remote -v'
 alias gl='git log'
 alias gc='git clone'
 
