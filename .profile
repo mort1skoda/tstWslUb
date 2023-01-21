@@ -28,4 +28,7 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
+shopt -s expand_aliases
+source /home/m/.bash_aliases
+
 
