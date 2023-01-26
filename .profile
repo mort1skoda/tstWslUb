@@ -8,6 +8,8 @@
 # for ssh logins, install and configure the libpam-umask package.
 # umask 022
 
+neofetch
+
 stty -ixon
 set -o vi
 
@@ -28,7 +30,5 @@ if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
 
-shopt -s expand_aliases
-source /home/m/.bash_aliases
 
 
