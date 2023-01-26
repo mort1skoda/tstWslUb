@@ -1,16 +1,11 @@
-# wslUbuntu
 ## WSL Ubuntu 20.04
-### ~/.files (& .folders)
-#### /home/username/.files 
-##### aka: dotfiles
-##### for:
-* bash
-* aliases
-* vim 
-* vifm
-* tmux
-* make   (Makefile)
-* gdb
+### dotfiles
+#### /home/m/ 
+
+* .bashrc  .bash_aliases
+* .vimrc   .vimfm
+* .tmux.config  makefiles
+* .gdb.config
 * C small multifile demos
 * ~\demoC including gdb
 * ~\demoHtml
