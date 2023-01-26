@@ -1,5 +1,8 @@
 download
 
+.landscape
+.gdb_history
+.git
 .bash_history
 .motd_shown
 .viminfo
