@@ -4,7 +4,6 @@
 
 #--- header --------------------------------------------------------{{{
 # Author:    Morten Håkestad
-# GitHub:    https://github.com/mort1skoda/wslTstUb.git
 
 # This script file is source by .bashrc
 #
