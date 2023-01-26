@@ -4,7 +4,7 @@
 
 #--- header --------------------------------------------------------{{{
 # Author:    Morten Håkestad
-
+#####
 # This script file is source by .bashrc
 #
 # Use ff or za to toggle folds.
