@@ -14,6 +14,24 @@
 * C small multifile demos
 * ~\demoC including gdb
 * ~\demoHtml
+
+<pre>
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove
+sudo apt install git -y
+sudo apt install gh -y
+gh auth login
+    GitHub.com
+    HTTPS
+    y
+    Login with a web browser
+    copy your one-time code: XXXX-XXXX
+    and go to https://github.com/login/device
+    
+</pre>
+
+
 ---
 * git pull https://github.com/mort1skoda/wslUbuntu2204.git
 * git remote -v
@@ -32,12 +50,6 @@
 * repositories with gitPush.sh
 * inside each of their folders
 ---
-<pre>
-sudo apt update -y
-sudo apt upgrade -y
-sudo apt autoremove
-sudo apt install git -y
-sudo apt install gh -y
 
 
 
