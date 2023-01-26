@@ -68,7 +68,7 @@ alias s='sudo'
 
 # linux:
 alias ,='vim'
-alias ,a='vim ~/.aliases.sh && source ~/.profile'
+alias ,a='vim ~/.bash_aliases && source ~/.profile'
 alias ,b='vim ~/.bashrc && source ~/.bashrc'
 alias ,f='vim ~/.vifm/vifmrc.vim'
 alias ,p='vim ~/.profile'
@@ -84,6 +84,7 @@ alias sa='source ~/.aliases.sh'
 # windows:
 alias ,eahk='vim /mnt/c/Users/Monica/Documents/AutoHotKey/myHotKeys.ahk'
 
+alias i='sudo apt install '
 alias u='sudo apt update -y && sudo apt upgrade -y && autoremove'
 
 

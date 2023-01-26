@@ -1,15 +1,6 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
 [user]
 	name = mort1skoda
 	email = mort1skoda@gmail.com
-
-[init]
-	defaultBranch = master
-
-
-
-
-
-[credential]
-	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager.exe
-
-
