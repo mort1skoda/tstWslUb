@@ -16,9 +16,15 @@
 * ~\demoHtml
 
 <pre>
+Use cmd or powershell
+wsl --list --online
+wsl --install -d Ubuntu-22.04
+
+open Ubuntu-22.04
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt autoremove
+
 sudo apt install git -y
 sudo apt install gh -y
 gh auth login
