@@ -27,9 +27,9 @@ gh auth login
     y
     Login with a web browser
     copy your one-time code: XXXX-XXXX
-    and go to https://github.com/login/device
-    
-</pre>
+ </pre>
+
+* and go to https://github.com/login/device
 
 
 ---
