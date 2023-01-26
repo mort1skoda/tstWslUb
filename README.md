@@ -37,6 +37,8 @@ git config --global user.name "Your Name"
 git config --global user.email "yourmail@yourdomain.com"
 git config list
 cat .gitconfig
+git config --global init.defaultBranch master
+git init
 git pull https://github.com/mort1skoda/wslUbuntu2204.git
 
 </pre>
