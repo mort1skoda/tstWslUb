@@ -65,5 +65,56 @@ git pull https://github.com/mort1skoda/wslUbuntu2204.git rebase
 * inside each of their folders
 ---
 
+<pre>
+Filestructure tree:
+
+├── .config
+│   ├── htop
+│   │   └── htoprc
+│   ├── myconf
+│   │   └── test.conf
+│   └── neofetch
+│       └── config.conf
+├── .vifm
+│   ├── colors
+│   │   ├── Default.vifm.bkup
+│   │   └── molokai.vifm
+│   ├── scripts
+│   │   └── README
+│   ├── vifm-help.txt
+│   ├── vifminfo
+│   ├── vifmrc -> vifmrc.vim
+│   ├── vifmrc.vim
+│   └── vifmrc_BU
+├── demo-c
+│   ├── 0demo-multifile
+│   │   ├── Makefile
+│   │   ├── func1.c
+│   │   ├── func1.h
+│   │   ├── func2.c
+│   │   ├── func2.h
+│   │   ├── func3.c
+│   │   ├── func3.h
+│   │   └── main.c
+│   └── main.c
+├── tutVimScript
+│   └── vimScript00preface.txt
+├── .bash_aliases
+├── .bash_logout
+├── .bashrc
+├── .gdbinit
+├── .gitconfig
+├── .gitignore
+├── .profile
+├── .tmux.conf
+├── .vimrc
+├── .wget-hsts
+├── README.md
+├── homeTree.txt
+├── info.sh
+├── map_caps-lock_esc.txt
+├── setupRoot.sh
+└── vimPaths.txt
+</pre>
 
 
