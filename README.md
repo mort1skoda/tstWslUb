@@ -32,6 +32,12 @@
 * repositories with gitPush.sh
 * inside each of their folders
 ---
-# tstWslUb
+<pre>
+sudo apt update -y
+sudo apt upgrade -y
+sudo apt autoremove
+sudo apt install git -y
+sudo apt install gh -y
+
 
 
