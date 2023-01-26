@@ -37,6 +37,14 @@ gh auth login
 
 * and go to https://github.com/login/device
 
+<pre>
+git config --global user.name "Your Name"
+git config --global user.email "yourmail@yourdomain.com"
+git config list
+cat .gitconfig
+git pull https://github.com/mort1skoda/wslUbuntu2204.git
+
+</pre>
 
 ---
 * git pull https://github.com/mort1skoda/wslUbuntu2204.git
