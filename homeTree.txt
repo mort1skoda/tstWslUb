@@ -1,60 +1,50 @@
 .
-├── .aliases.sh
-├── .bash_history
-├── .bash_logout
-├── .bashrc
 ├── .config
 │   ├── htop
-│   └── myconf
-├── .gdb_history
-├── .gdbinit
-├── .git
-│   ├── COMMIT_EDITMSG
-│   ├── HEAD
-│   ├── branches
-│   ├── config
-│   ├── description
-│   ├── hooks
-│   ├── index
-│   ├── info
-│   ├── logs
-│   ├── objects
-│   └── refs
-├── .gitconfig
-├── .gitignore
-├── .landscape
-│   └── sysinfo.log
-├── .local
-│   └── share
-├── .motd_shown
-├── .profile
-├── .sudo_as_admin_successful
-├── .tmux.conf
+│   │   └── htoprc
+│   ├── myconf
+│   │   └── test.conf
+│   └── neofetch
+│       └── config.conf
 ├── .vifm
 │   ├── colors
+│   │   ├── Default.vifm.bkup
+│   │   └── molokai.vifm
 │   ├── scripts
+│   │   └── README
 │   ├── vifm-help.txt
 │   ├── vifminfo
 │   ├── vifmrc -> vifmrc.vim
 │   ├── vifmrc.vim
 │   └── vifmrc_BU
-├── .vim
-│   ├── .netrwbook
-│   ├── .netrwhist
-│   ├── .vim -> /home/m/.vim
-│   ├── autoload
-│   ├── colors
-│   ├── spell
-│   └── syntax
-├── .viminfo
+├── demo-c
+│   ├── 0demo-multifile
+│   │   ├── Makefile
+│   │   ├── func1.c
+│   │   ├── func1.h
+│   │   ├── func2.c
+│   │   ├── func2.h
+│   │   ├── func3.c
+│   │   ├── func3.h
+│   │   └── main.c
+│   └── main.c
+├── tutVimScript
+│   └── vimScript00preface.txt
+├── .bash_aliases
+├── .bash_logout
+├── .bashrc
+├── .gdbinit
+├── .gitconfig
+├── .gitignore
+├── .profile
+├── .tmux.conf
 ├── .vimrc
 ├── .wget-hsts
 ├── README.md
-├── demoC
-├── gitCommitTime.sh
-├── gitPush.sh
 ├── homeTree.txt
+├── info.sh
 ├── map_caps-lock_esc.txt
-└── setupRoot.sh
+├── setupRoot.sh
+└── vimPaths.txt
 
-23 directories, 34 files
+10 directories, 37 files
