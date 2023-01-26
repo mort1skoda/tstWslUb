@@ -15,7 +15,7 @@
 * ~\demoC including gdb
 * ~\demoHtml
 ---
-* git pull https://github.com/mort1skoda/tstWslUb.git
+* git pull https://github.com/mort1skoda/wslUbuntu2204.git
 * git remote -v
 ---
 * ./gitPush.sh   /   alias gp
