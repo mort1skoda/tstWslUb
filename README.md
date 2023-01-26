@@ -39,7 +39,10 @@ git config list
 cat .gitconfig
 git config --global init.defaultBranch master
 git init
-git pull https://github.com/mort1skoda/wslUbuntu2204.git
+
+git pull https://github.com/mort1skoda/wslUbuntu2204.git rebase
+
+
 
 </pre>
 
