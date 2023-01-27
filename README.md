@@ -2,13 +2,15 @@
 ### dotfiles
 #### /home/m/ 
 
-* .bashrc  .bash_aliases
-* .vimrc   .vimfm
-* .tmux.config  makefiles
-* .gdb.config
-* C small multifile demos
-* ~\demoC including gdb
-* ~\demoHtml
+<pre>
+The basic "must have" files:
+.bashrc
+.bash_aliases
+.vimrc
+.vimfm/.vimfm
+.tmux.config
+</pre>
+---
 
 <pre>
 Use cmd or powershell
@@ -30,7 +32,8 @@ gh auth login
     copy your one-time code: XXXX-XXXX
  </pre>
 
-* and go to https://github.com/login/device
+* and go to
+* https://github.com/login/device
 
 <pre>
 git config --global user.name "Your Name"
@@ -42,21 +45,11 @@ git init
 
 git pull https://github.com/mort1skoda/wslUbuntu2204.git rebase
 
-
-
 </pre>
 
 ---
 * git pull https://github.com/mort1skoda/wslUbuntu2204.git
 * git remote -v
----
-* ./gitPush.sh   /   alias gp
-* cat gitPush.sh to see "how it's done"
-* alias c='cat '    c gitPush.sh
-* push all the dotfiles in /home/user/
-* including the folders:
-* .config .landscape .local .vifm .vim
----
 * other user data /dat
 * Like: 
 * devC devHtml devLfs
@@ -66,6 +59,7 @@ git pull https://github.com/mort1skoda/wslUbuntu2204.git rebase
 ---
 
 <pre>
+
 Filestructure tree:
 
 ├── .config
