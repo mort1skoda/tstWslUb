@@ -5,10 +5,11 @@
 #### The basic "must have" files:
 
 <pre>
-The basic "must have" files:
+.profile
 .bashrc
 .bash_aliases
 .vimrc
+.vim/colors/molokai.vim
 .vimfm/.vimfm
 .tmux.config
 </pre>
