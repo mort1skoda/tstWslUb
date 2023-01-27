@@ -1,6 +1,8 @@
-## WSL Ubuntu 20.04
-### dotfiles
-#### /home/m/ 
+# WSL Ubuntu 20.04
+## dotfiles
+### /home/m/ 
+
+#### The basic "must have" files:
 
 <pre>
 The basic "must have" files:
